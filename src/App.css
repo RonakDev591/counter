@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+  font-family: Steradin;
+  src: url("./assets/fonts/SteradianTRIAL-RgIt.otf") format('.woff');
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-steradin: "Steradin", sans-serif;
+  --font-anton: "Anton", sans-serif;
+}
